@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "Task":"Exercise",
+        "complete":false,
+        "type":"personal"
+    },
+
+    {
+        "id":2,
+        "Task":"Meditation",
+        "complete":true,
+        "type":"personal"
+    },
+
+    {
+        "id":3,
+        "Task":"Develop App",
+        "complete":false,
+        "type":"professional"
+    }
+]

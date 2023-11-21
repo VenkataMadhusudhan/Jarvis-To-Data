@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .beforestyles {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 0;
+    transition: all 0.5s;
+    z-index: -10;
+  }
+}
+
+@layer components {
+  .jarvispattern {
+    background-image: url(../jarvish.jpg);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .rotate {
+    animation: rotate 10s linear infinite;
+  }
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .logojarvis {
+    background-image: url(../jarvis-logo.png);
+    height: 80px;
+    width: 210px;
+    background-position: center;
+    background-size: contain;
+    border: 2px solid rgba(125, 14, 14, 0.274);
+    transition: all ease-in-out 2s;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .logoadd {
+    transform: scale(1.15);
+  }
+}

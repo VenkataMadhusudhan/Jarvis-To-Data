@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Jarvis-To-Do-App/static/css/main.f55fcfed.css",
+    "main.js": "/Jarvis-To-Do-App/static/js/main.2ee2d30f.js",
+    "static/media/jarvish.jpg": "/Jarvis-To-Do-App/static/media/jarvish.2f3f998c128cdcdfa0cd.jpg",
+    "static/media/jarvis-logo.png": "/Jarvis-To-Do-App/static/media/jarvis-logo.f56b66fa53ff7807ee44.png",
+    "index.html": "/Jarvis-To-Do-App/index.html",
+    "main.f55fcfed.css.map": "/Jarvis-To-Do-App/static/css/main.f55fcfed.css.map",
+    "main.2ee2d30f.js.map": "/Jarvis-To-Do-App/static/js/main.2ee2d30f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f55fcfed.css",
+    "static/js/main.2ee2d30f.js"
+  ]
+}
